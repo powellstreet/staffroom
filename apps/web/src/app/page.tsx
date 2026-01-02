@@ -1,4 +1,5 @@
 import { BookSearch } from '@/components/book-search';
+import { ReviewForm } from '@/components/review-form';
 
 export default function Home() {
   return (
@@ -23,6 +24,10 @@ export default function Home() {
         </div>
 
         <BookSearch />
+        
+        <div className="my-12 border-t border-gray-200" />
+        
+        <ReviewForm />
       </main>
     </div>
   );
