@@ -1,0 +1,13 @@
+{
+  "name": "staffroom-monorepo",
+  "private": true,
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "dev": "yarn workspaces run dev",
+    "build": "yarn workspaces run build",
+    "lint": "yarn workspaces run lint"
+  },
+  "packageManager": "yarn@4.0.2"
+}
